@@ -3,6 +3,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import vue from '@vitejs/plugin-vue'
+import viteCompression from 'vite-plugin-compression'
 
 const { resolve } = require('path')
 
@@ -16,6 +17,9 @@ export default ({ mode }) => {
       }),
       Components({
         resolvers: [ElementPlusResolver()]
+      }),
+      viteCompression({
+        threshold: 8000 // 对大于 8k 的文件进行压缩 需要更改大小可以自己进行换算
       })
     ],
     server: {

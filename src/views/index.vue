@@ -59,20 +59,10 @@
     }
   ]
   const likes = ['摄影', '编程', '跑步', '动漫']
-  const projects = [
-    '影评小程序',
-    'miniAprender',
-    '菜谱App',
-    '多引擎搜索',
-    '采销一体化',
-    '智慧仓储',
-    '建中官网',
-    '数据采集小程序'
-  ]
+  const projects = ['影评小程序', 'miniAprender', '菜谱App', '持续更新中...']
   const imgArr = [
     ['YP1.jpg', 'YP2.jpg', 'YP3.jpg', 'YP4.jpg'],
     ['mini1.jpg', 'mini2.jpg', 'mini3.jpg', 'mini4.jpg'],
-    ['cp1.jpg', 'cp2.jpg', 'cp3.jpg', 'cp4.jpg'],
     ['cp1.jpg', 'cp2.jpg', 'cp3.jpg', 'cp4.jpg']
   ]
   const notes = [
